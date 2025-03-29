@@ -62,9 +62,23 @@ aside {
 
   aside {
     order: -1;
+    padding: 1.5rem;
+
+    & .aside-container > img {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .aside-container {
+    & header > img {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   main {
-      overflow: visible;
+    overflow: visible;
+
+    padding: 1.5rem;
   }
 }
