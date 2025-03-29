@@ -61,4 +61,8 @@ img {
   .flex {
     flex-direction: column;
   }
+
+  .actions-wrapper {
+    flex-direction: column;
+  }
 }

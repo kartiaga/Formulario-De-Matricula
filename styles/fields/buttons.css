@@ -24,6 +24,17 @@ button {
     &:focus {
     color: #E43A12;
     outline: .25rem solid var(--surface-secondary);
+
   }
+  }
+}
+
+@media (width <= 48em) {
+  button {
+    text-align: center;
+  }
+
+  button.btn-secondary {
+    margin-left: unset;
   }
 }
