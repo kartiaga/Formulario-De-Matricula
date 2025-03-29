@@ -52,3 +52,9 @@ img {
 .flex-2 {
   flex: 2;
 }
+
+@media (width < 48em) {
+  .desktop-only {
+    display: none;
+  }
+}

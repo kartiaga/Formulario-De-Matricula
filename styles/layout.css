@@ -48,3 +48,23 @@ aside {
     }
   }
 }
+
+@media (width <= 48em) { 
+  body {
+    overflow-y: visible;
+  }
+
+  #app {
+      display: flex;
+      flex-direction: column;
+      overflow-y: visible; /* Garante que o conteúdo possa rolar */
+  }
+
+  aside {
+    order: -1;
+  }
+
+  main {
+      overflow: visible;
+  }
+}
